@@ -124,9 +124,8 @@ jobs:
           sudo -E apt-get -qq clean
           sudo timedatectl set-timezone "$TZ"
           sudo mkdir -p /workdir
-          sudo chown $USER:$GROUPS /workdir
-
-      
+          sudo ch 
+          df -Th
     - name: 克隆源码
       working-directory: /workdir
       run: |
