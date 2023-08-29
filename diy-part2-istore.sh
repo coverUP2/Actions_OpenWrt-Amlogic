@@ -10,6 +10,6 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-default-settings    # 设置密码为空
+#sed -i '/CYXluq4wUazHjmCDBCqXF/d' package/lean/default-settings/files/zzz-default-settings    # 设置密码为空
 
 sed -i 's/192.168.1.1/192.168.2.9/g' package/base-files/files/bin/config_generate
